@@ -1,0 +1,200 @@
+@function px2rem($px) {
+  @return $px/100 + rem;
+}
+
+@media print {
+
+  .container {
+    header {
+      position: absolute;
+      top: 0;
+    }
+
+    .page {
+
+      &__1 {
+        .contact-me, #qrcode {
+          top: 750px;
+        }
+
+        .tips {
+          margin-top: 1000px;
+        }
+      }
+
+      &__2 {
+        .contents > div:first-child {
+          width: 450px !important;
+          height: 450px !important;
+        }
+      }
+
+      &__3 {
+        .more--project {
+          height: 80px;
+        }
+      }
+
+      &__4 {
+        margin-top: px2rem(-70);
+
+        .intro {
+          margin-bottom: px2rem(20);
+        }
+
+        .more--experience {
+          height: px2rem(320);
+        }
+
+        .experiences .right p {
+          font-size: px2rem(15);
+        }
+      }
+
+      &__5 {
+        margin-top: px2rem(-50);
+
+        .contents ul li {
+          font-size: px2rem(20) !important;
+        }
+
+      }
+
+      &__6 {
+        .tips {
+          margin: px2rem(70) 0 0 0 !important;
+        }
+      }
+    }
+
+  }
+
+  .container .page .intro p {
+    font-size: px2rem(14) !important;
+  }
+
+  .more-link, .donwload {
+    display: none;
+  }
+
+  .gallery {
+    .img {
+      display: none;
+    }
+  }
+
+  .more-link.more-link--tips {
+    display: block;
+  }
+
+  .more--experience {
+    height: 405px;
+  }
+
+  .experiences li {
+    padding: px2rem(0);
+  }
+
+  footer {
+    padding: px2rem(20) 0 0;
+  }
+
+  .container .page__3 .contents ul {
+
+    li {
+      box-shadow: none;
+    }
+
+    h3 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container .page__5 .contents ul li {
+    font-size: px2rem(20);
+  }
+
+  .container .page .intro p {
+    font-size: px2rem(15);
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 95px;
+  }
+
+  .container .page .intro p {
+    font-size: px2rem(20);
+  }
+
+  .container .page__5 {
+    .contents ul li {
+      font-size: px2rem(28);
+      display: block;
+
+      &:not(:last-child) {
+        margin-bottom: px2rem(30);
+      }
+
+      &:after {
+        width: 0;
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        z-index: -1;
+        height: 100%;
+        border: none;
+        border-left: 3px dashed #ddd;
+      }
+    }
+
+    ul li:nth-child(1):after {
+      border-left: 3px solid #ddd;
+    }
+
+    ul li:nth-child(2):after {
+      border-left: 3px solid #ddd;
+    }
+
+  }
+
+  .container .page__6 {
+    width: 100%;
+
+    .contents {
+      width: px2rem(340);
+
+      .summary {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 80px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 73px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 65px;
+  }
+}
