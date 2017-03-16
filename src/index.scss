@@ -558,3 +558,30 @@ footer {
 .tagul-attribution {
   display: none;
 }
+
+.wechat {
+  position: relative;
+
+  &:hover {
+    &:after {
+      transform: translate(0, -95%) scale(1);
+      opacity: 1;
+    }
+  }
+
+  &:after {
+    content: '';
+    transition: .3s;
+    position: absolute;
+    width: px2rem(200);
+    height: px2rem(297);
+    top: 0;
+    left: 0;
+    transform: translate(0, -95%) scale(0);
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transform-origin: bottom;
+    //display: none;
+    background: url("http://think2011.qiniudn.com/wechat-qrcode.jpg?imageView2/2/w/200") no-repeat 0 0;
+  }
+}
