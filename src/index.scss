@@ -581,7 +581,7 @@ footer {
     opacity: 0;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
     transform-origin: bottom;
-    //display: none;
     background: url("http://think2011.qiniudn.com/wechat-qrcode.jpg?imageView2/2/w/200") no-repeat 0 0;
+    background-size: contain;
   }
 }
