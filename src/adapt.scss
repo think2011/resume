@@ -24,24 +24,22 @@
 
       &__2 {
         .contents > div:first-child {
-          width: 400px !important;
-          height: 400px !important;
+          width: 320px !important;
+          height: 320px !important;
         }
 
         .desc {
           margin-top: 0;
 
           li {
-            line-height: 2;
-            font-size: px2rem(14.5);
+            font-size: 14px;
           }
 
           &__sub {
             margin-top: px2rem(5);
 
             > li {
-              font-size: px2rem(13);
-              line-height: 1.8;
+              font-size: 13px;
             }
           }
         }
@@ -206,7 +204,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 375px) {
   html {
-    font-size: 73px;
+    font-size: 68px;
   }
 }
 
