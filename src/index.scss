@@ -499,7 +499,7 @@ h1 {
             margin-right: px2rem(15);
           }
 
-          img {
+          img:first-child {
             height: px2rem(18);
             vertical-align: bottom;
             margin-left: 0;
@@ -577,14 +577,13 @@ footer {
   position: relative;
 
   &:hover {
-    &:after {
+    .wechat__img {
       transform: translate(0, -95%) scale(1);
       opacity: 1;
     }
   }
 
-  &:after {
-    content: '';
+  .wechat__img {
     transition: .3s;
     position: absolute;
     width: px2rem(200);
@@ -595,7 +594,5 @@ footer {
     opacity: 0;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
     transform-origin: bottom;
-    background: url("http://think2011.qiniudn.com/wechat-qrcode.jpg?imageView2/2/w/200") no-repeat 0 0;
-    background-size: contain;
   }
 }
