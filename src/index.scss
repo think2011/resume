@@ -78,6 +78,8 @@ ul, li {
     display: block;
     font-size: 22px;
     transform: rotate(90deg);
+    width: 25px;
+    margin: auto;
   }
 
   &--tips {
@@ -338,11 +340,23 @@ h1 {
     /* page2 */
     &__2 {
       .desc {
-        li {
+        margin-top: px2rem(30);
+
+        > li {
           list-style-type: disc;
           margin-left: px2rem(20);
           margin-bottom: px2rem(15);
-          line-height: 1.8;
+          line-height: 2.5;
+          font-size: px2rem(15.8);
+
+        }
+
+        &__sub {
+          font-size: px2rem(14);
+          margin: 0;
+          padding: px2rem(5) px2rem(10);
+          border-radius: 5px;
+          background: $color-muted;
         }
       }
 

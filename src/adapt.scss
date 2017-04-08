@@ -24,14 +24,32 @@
 
       &__2 {
         .contents > div:first-child {
-          width: 450px !important;
-          height: 450px !important;
+          width: 400px !important;
+          height: 400px !important;
+        }
+
+        .desc {
+          margin-top: 0;
+
+          li {
+            line-height: 2;
+            font-size: px2rem(14.5);
+          }
+
+          &__sub {
+            margin-top: px2rem(5);
+
+            > li {
+              font-size: px2rem(13);
+              line-height: 1.8;
+            }
+          }
         }
       }
 
       &__3 {
         .more--project {
-          height: 80px;
+          height: 38px;
         }
       }
 

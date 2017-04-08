@@ -23,15 +23,17 @@ module.exports = [
         ]
     },
     {
-        name: '促销宝',
-        year: 2015,
-        desc: '卖家可以通过该产品做购物促销、打水印、发送优惠劵、生成手机详情、上架商品等功能',
-        sImg: 'http://think2011.qiniudn.com/cxb-1.png?imageView2/2/w/300',
+        name: '趣互动PC端',
+        year: 2016,
+        desc: '提供互动、抽奖类的游戏给卖家推广产品',
+        sImg: 'http://think2011.qiniudn.com/qhd-1-1.png?imageView2/2/w/300',
         imgs: [
-            'http://think2011.qiniudn.com/cxb-1.png',
-            'http://think2011.qiniudn.com/cxb-2.png',
-            'http://think2011.qiniudn.com/cxb-3.png',
-            'http://think2011.qiniudn.com/cxb-4.png',
+            'http://think2011.qiniudn.com/qhd-1.png',
+            'http://think2011.qiniudn.com/qhd-1-1.png',
+            'http://think2011.qiniudn.com/qhd-2.png',
+            'http://think2011.qiniudn.com/qhd-3.png',
+            'http://think2011.qiniudn.com/qhd-4.png',
+            'http://think2011.qiniudn.com/qhd-7.png',
         ]
     },
     {
@@ -47,21 +49,21 @@ module.exports = [
         ]
     },
     {
-        name: '趣互动',
-        year: 2016,
-        desc: '提供互动、抽奖类的游戏给卖家推广产品',
-        sImg: 'http://think2011.qiniudn.com/qhd-1.png?imageView2/2/w/300',
+        name: '促销宝',
+        year: 2015,
+        desc: '卖家可以通过该产品做购物促销、打水印、发送优惠劵、生成手机详情、上架商品等功能',
+        sImg: 'http://think2011.qiniudn.com/cxb-1.png?imageView2/2/w/300',
         imgs: [
-            'http://think2011.qiniudn.com/qhd-1.png',
-            'http://think2011.qiniudn.com/qhd-2.png',
-            'http://think2011.qiniudn.com/qhd-3.png',
-            'http://think2011.qiniudn.com/qhd-4.png',
+            'http://think2011.qiniudn.com/cxb-1.png',
+            'http://think2011.qiniudn.com/cxb-2.png',
+            'http://think2011.qiniudn.com/cxb-3.png',
+            'http://think2011.qiniudn.com/cxb-4.png',
         ]
     },
     {
         name: '趣互动移动端',
         year: 2016,
-        desc: '提供互动、抽奖类的游戏给卖家推广产品',
+        desc: '卖家可以通过该产品创建管理抽奖、互动活动',
         sImg: 'http://think2011.qiniudn.com/qhd-m-1.png?imageView2/2/w/300',
         imgs: [
             'http://think2011.qiniudn.com/qhd-m-1.png',
@@ -69,6 +71,20 @@ module.exports = [
             'http://think2011.qiniudn.com/qhd-m-3.png',
             'http://think2011.qiniudn.com/qhd-m-4.png',
             'http://think2011.qiniudn.com/qhd-m-5.png',
+        ]
+    },
+    {
+        name: '趣互动粉丝中心',
+        year: 2017,
+        desc: '卖家的会员可以通过该产品游玩互动、赚取消费积分、优惠等',
+        sImg: 'http://think2011.qiniudn.com/fans-1.png?imageView2/2/w/300',
+        imgs: [
+            'http://think2011.qiniudn.com/fans-1.png',
+            'http://think2011.qiniudn.com/fans-2.png',
+            'http://think2011.qiniudn.com/fans-3.png',
+            'http://think2011.qiniudn.com/fans-4.png',
+            'http://think2011.qiniudn.com/fans-5.png',
+            'http://think2011.qiniudn.com/fans-6.png',
         ]
     },
     {
