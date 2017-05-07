@@ -3461,6 +3461,10 @@ sax@~1.2.1:
   version "1.2.2"
   resolved "http://registry.npm.taobao.org/sax/download/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
 
+scrollreveal@^3.3.5:
+  version "3.3.5"
+  resolved "http://registry.npm.taobao.org/scrollreveal/download/scrollreveal-3.3.5.tgz#6a3618f24c35ec4205804cb78b40bc733bab2741"
+
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/select-hose/download/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
