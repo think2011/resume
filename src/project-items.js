@@ -55,6 +55,9 @@ module.exports = [
         sImg: 'http://think2011.qiniudn.com/cxb-1.png?imageView2/2/w/300',
         imgs: [
             'http://think2011.qiniudn.com/cxb-1.png',
+            'http://think2011.qiniudn.com/cxb-1-1.png',
+            'http://think2011.qiniudn.com/cxb-1-2.png',
+            'http://think2011.qiniudn.com/cxb-1-3.png',
             'http://think2011.qiniudn.com/cxb-2.png',
             'http://think2011.qiniudn.com/cxb-3.png',
             'http://think2011.qiniudn.com/cxb-4.png',

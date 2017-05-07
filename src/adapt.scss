@@ -24,16 +24,15 @@
 
       &__2 {
         .contents {
-          margin-top: -50px;
+          margin-top: -40px;
         }
 
         .contents > div:first-child {
-          width: 320px !important;
-          height: 320px !important;
+          zoom: .42;
         }
 
         .desc {
-          margin-top: 15px;
+          margin-top: -15px;
 
           li {
             font-size: 14px;
