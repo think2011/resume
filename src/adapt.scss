@@ -79,8 +79,16 @@
           height: px2rem(320);
         }
 
-        .experiences .right p {
-          font-size: px2rem(15);
+        .experiences .right {
+          p {
+            font-size: 12px;
+          }
+
+          ul {
+            li {
+              margin: px2rem(12) 0 0 px2rem(15);
+            }
+          }
         }
       }
 
