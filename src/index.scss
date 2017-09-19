@@ -256,11 +256,14 @@ h1 {
 
         .pull-right {
             text-align: right;
+            position: relative;
 
             .text-sm {
+                width: 100%;
+                position: absolute;
+                top: px2rem(30);
+                right: 0;
                 font-size: px2rem(13);
-                position: relative;
-                top: px2rem(8);
             }
         }
     }
